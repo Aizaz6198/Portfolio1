@@ -31,7 +31,7 @@ app.post('/process_form', (req, res) => {
     // Compose email
     const mailOptions = {
         from: email,
-        to: 'Aizaz060198@gmail.com',
+        to: 'mdshakir179s@gmail.com',
         subject: subject,
         text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nDescription:\n${description}`
     };
